@@ -10,28 +10,29 @@
 <body>
     <div class="container rounded border mt-5">
            <form>
-            <div class="bg-light rounded pt-2 pb-2 mb-2 mt-2 d-flex">
-                <h2 class=" mx-3">Payment from example</h2>
-            </div>
-            <div>
+                <div class="bg-light rounded pt-2 pb-2 mb-2 mt-2 d-flex">
+                    <h2 class=" mx-3">Payment from example</h2>
+                </div>
+               
                 <div class="alert alert-danger" role="alert">
                     Some fields are missing!
                 </div>
-                <div class="d-flex m-2"> 
-                        <fieldset class="col-5">
-                            <label for="">Card #</label>
-                            <input class="form-control" type="Name" placeholder="XXXXXXXXXXXXXXXXX" />
-                        </fieldset>
-                        <fieldset class="col-2 mx-5">
-                            <label for="">CVC #</label>
-                            <input class="form-control" type="Name" placeholder="0000" />
-                        </fieldset>
-                        <fieldset class="col-4 ">
-                            <label for="">Amount</label>
-                            <input class="form-control" type="Name" placeholder="Amount" />
-                        </fieldset>
+
+                <div class="container d-flex"> 
+                <fieldset class="col-5">
+                    <label for="">Card #</label>
+                    <input class="form-control" type="Name" placeholder="XXXXXXXXXXXXXXXXX" />
+                </fieldset>
+                <fieldset class="col-2 mx-1">
+                    <label for="">CVC #</label>
+                    <input class="form-control" type="Name" placeholder="0000" />
+                </fieldset>
+                <fieldset class="col-5 ">
+                    <label for="">Amount</label>
+                    <input class="form-control" type="Name" placeholder="Amount" />
+                </fieldset>
                 </div>
-             </div>
+
              <div class="d-flex mt-3 mb-3">
                 <div class="col-6 p-2 ">
                     <fieldset>
@@ -44,7 +45,7 @@
                     </fieldset>
                     <fieldset class="mt-3">
                         <label for="">We accept:</label>
-                        <div class="bg-secondary col-5 p-2">
+                        <div class="bg-light border rounded col-5 p-2">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                 <label class="form-check-label" for="inlineRadio1"><i class="bi bi-credit-card"></i></label>
@@ -90,11 +91,11 @@
                           </div>
                     </fieldset>
                 </div>
-             </div>
-             <div  class="d-flex justify-content-end bg-light rounded px-5 pb-2 mb-2 pt-2 d-flex ">
-                    <button class="btn btn-secondary m-1">cancel</button>
-                    <button class="btn btn-primary m-1">Send</button>
-             </div>
+                  </div>
+                <div  class="d-flex justify-content-end bg-light rounded px-5 pb-2 mb-2 pt-2 d-flex ">
+                        <button class="btn btn-secondary m-1">cancel</button>
+                        <button class="btn btn-primary m-1">Send</button>
+                </div>
 
 
              </div>
